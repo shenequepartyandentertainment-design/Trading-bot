@@ -1,0 +1,16 @@
+account:
+starting_balance: 25000
+max_risk_per_trade_pct: 0.02
+max_daily_loss_pct: 0.05
+max_open_risk_pct: 0.20
+trading: tickers:
+- SPY
+- QQQ
+strategy_type: "bull_put_spread"
+poll_interval_seconds: 300
+min_dte: 14
+max_dte: 45
+broker:
+mode: "paper"
+api_key: "YOUR_KEY_HERE"
+api_secret: "YOUR_SECRET_HERE"
